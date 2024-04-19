@@ -1,9 +1,11 @@
-import Image from "next/image";
-
+import React from "react";
+import { HeaderComponent } from "./components/HeaderComponent";
+import CarouselComponent from "./components/CarouselComponent";
 export default function Home() {
   return (
     <>
-      fodace
+    <HeaderComponent />
+    <CarouselComponent name="Vitão"/>
     </>
   );
 }
